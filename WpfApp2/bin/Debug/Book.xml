@@ -1,178 +1,181 @@
 <?xml version="1.0"?>
 <ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Book Title="Fundamentals of Wavelets" AuthorLastName="Goswami" AuthorFirstName=" Jaideva" Genre="tech" Subgenre="signal_processing" Publisher="Wiley" InLibrary="1" />
-  <Book Title="Data Smart" AuthorLastName="Foreman" AuthorFirstName=" John" Genre="tech" Subgenre="data_science" Publisher="Wiley" InLibrary="1" />
-  <Book Title="God Created the Integers" AuthorLastName="Hawking" AuthorFirstName=" Stephen" Genre="tech" Subgenre="mathematics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Superfreakonomics" AuthorLastName="Dubner" AuthorFirstName=" Stephen" Genre="science" Subgenre="economics" Publisher="HarperCollins" InLibrary="1" />
-  <Book Title="Orientalism" AuthorLastName="Said" AuthorFirstName=" Edward" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Nature of Statistical Learning Theory, The" AuthorLastName="Vapnik" AuthorFirstName=" Vladimir" Genre="tech" Subgenre="data_science" Publisher="Springer" InLibrary="1" />
-  <Book Title="Integration of the Indian States" AuthorLastName="Menon" AuthorFirstName=" V P" Genre="nonfiction" Subgenre="history" Publisher="Orient Blackswan" InLibrary="1" />
-  <Book Title="Drunkard's Walk, The" AuthorLastName="Mlodinow" AuthorFirstName=" Leonard" Genre="science" Subgenre="mathematics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Image Processing &amp; Mathematical Morphology" AuthorLastName="Shih" AuthorFirstName=" Frank" Genre="tech" Subgenre="signal_processing" Publisher="CRC" InLibrary="1" />
-  <Book Title="How to Think Like Sherlock Holmes" AuthorLastName="Konnikova" AuthorFirstName=" Maria" Genre="nonfiction" Subgenre="psychology" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Slaughterhouse Five" AuthorLastName="Vonnegut" AuthorFirstName=" Kurt" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Birth of a Theorem" AuthorLastName="Villani" AuthorFirstName=" Cedric" Genre="science" Subgenre="mathematics" Publisher="Bodley Head" InLibrary="1" />
-  <Book Title="Structure &amp; Interpretation of Computer Programs" AuthorLastName="Sussman" AuthorFirstName=" Gerald" Genre="tech" Subgenre="computer_science" Publisher="MIT Press" InLibrary="1" />
-  <Book Title="Age of Wrath, The" AuthorLastName="Eraly" AuthorFirstName=" Abraham" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Trial, The" AuthorLastName="Kafka" AuthorFirstName=" Frank" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Statistical Decision Theory'" AuthorLastName="Pratt" AuthorFirstName=" John" Genre="tech" Subgenre="data_science" Publisher="MIT Press" InLibrary="1" />
-  <Book Title="Data Mining Handbook" AuthorLastName="Nisbet" AuthorFirstName=" Robert" Genre="tech" Subgenre="data_science" Publisher="Apress" InLibrary="1" />
-  <Book Title="New Machiavelli, The" AuthorLastName="Wells" AuthorFirstName=" H. G." Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Physics &amp; Philosophy" AuthorLastName="Heisenberg" AuthorFirstName=" Werner" Genre="philosophy" Subgenre="science" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Making Software" AuthorLastName="Oram" AuthorFirstName=" Andy" Genre="tech" Subgenre="computer_science" Publisher="O'Reilly" InLibrary="1" />
-  <Book Title="Analysis, Vol I" AuthorLastName="Tao" AuthorFirstName=" Terence" Genre="tech" Subgenre="mathematics" Publisher="HBA" InLibrary="1" />
-  <Book Title="Machine Learning for Hackers" AuthorLastName="Conway" AuthorFirstName=" Drew" Genre="tech" Subgenre="data_science" Publisher="O'Reilly" InLibrary="1" />
-  <Book Title="Signal and the Noise, The" AuthorLastName="Silver" AuthorFirstName=" Nate" Genre="tech" Subgenre="data_science" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Python for Data Analysis" AuthorLastName="McKinney" AuthorFirstName=" Wes" Genre="tech" Subgenre="data_science" Publisher="O'Reilly" InLibrary="1" />
-  <Book Title="Introduction to Algorithms" AuthorLastName="Cormen" AuthorFirstName=" Thomas" Genre="tech" Subgenre="computer_science" Publisher="MIT Press" InLibrary="1" />
-  <Book Title="Beautiful and the Damned, The" AuthorLastName="Deb" AuthorFirstName=" Siddhartha" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Outsider, The" AuthorLastName="Camus" AuthorFirstName=" Albert" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Complete Sherlock Holmes, The - Vol I" AuthorLastName="Doyle" AuthorFirstName=" Arthur Conan" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Complete Sherlock Holmes, The - Vol II" AuthorLastName="Doyle" AuthorFirstName=" Arthur Conan" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Wealth of Nations, The" AuthorLastName="Smith" AuthorFirstName=" Adam" Genre="science" Subgenre="economics" Publisher="Random House" InLibrary="1" />
-  <Book Title="Pillars of the Earth, The" AuthorLastName="Follett" AuthorFirstName=" Ken" Genre="fiction" Subgenre="novel" Publisher="Random House" InLibrary="1" />
-  <Book Title="Mein Kampf" AuthorLastName="Hitler" AuthorFirstName=" Adolf" Genre="nonfiction" Subgenre="autobiography" Publisher="Rupa" InLibrary="1" />
-  <Book Title="Tao of Physics, The" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="science" Subgenre="physics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Surely You're Joking Mr Feynman" AuthorLastName="Feynman" AuthorFirstName=" Richard" Genre="science" Subgenre="physics" Publisher="Random House" InLibrary="1" />
-  <Book Title="Farewell to Arms, A" AuthorLastName="Hemingway" AuthorFirstName=" Ernest" Genre="fiction" Subgenre="classic" Publisher="Rupa" InLibrary="1" />
-  <Book Title="Veteran, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Subgenre="novel" Publisher="Transworld" InLibrary="1" />
-  <Book Title="False Impressions" AuthorLastName="Archer" AuthorFirstName=" Jeffery" Genre="fiction" Subgenre="novel" Publisher="Pan" InLibrary="1" />
-  <Book Title="Last Lecture, The" AuthorLastName="Pausch" AuthorFirstName=" Randy" Genre="nonfiction" Subgenre="autobiography" Publisher="Hyperion" InLibrary="1" />
-  <Book Title="Return of the Primitive" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Subgenre="objectivism" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Jurassic Park" AuthorLastName="Crichton" AuthorFirstName=" Michael" Genre="fiction" Subgenre="novel" Publisher="Random House" InLibrary="1" />
-  <Book Title="Russian Journal, A" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Tales of Mystery and Imagination" AuthorLastName="Poe" AuthorFirstName=" Edgar Allen" Genre="fiction" Subgenre="classic" Publisher="HarperCollins" InLibrary="1" />
-  <Book Title="Freakonomics" AuthorLastName="Dubner" AuthorFirstName=" Stephen" Genre="science" Subgenre="economics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Hidden Connections, The" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="science" Subgenre="physics" Publisher="HarperCollins" InLibrary="1" />
-  <Book Title="Story of Philosophy, The" AuthorLastName="Durant" AuthorFirstName=" Will" Genre="philosophy" Subgenre="history" Publisher="Pocket" InLibrary="1" />
-  <Book Title="Asami Asami" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="fiction" Subgenre="novel" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Journal of a Novel" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Once There Was a War" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Moon is Down, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Brethren, The" AuthorLastName="Grisham" AuthorFirstName=" John" Genre="fiction" Subgenre="novel" Publisher="Random House" InLibrary="1" />
-  <Book Title="In a Free State" AuthorLastName="Naipaul" AuthorFirstName=" V. S." Genre="fiction" Subgenre="novel" Publisher="Rupa" InLibrary="1" />
-  <Book Title="Catch 22" AuthorLastName="Heller" AuthorFirstName=" Joseph" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Dylan on Dylan" AuthorLastName="Dylan" AuthorFirstName=" Bob" Genre="nonfiction" Subgenre="autobiography" Publisher="Random House" InLibrary="1" />
-  <Book Title="Soft Computing &amp; Intelligent Systems" AuthorLastName="Gupta" AuthorFirstName=" Madan" Genre="tech" Subgenre="data_science" Publisher="Elsevier" InLibrary="1" />
-  <Book Title="Textbook of Economic Theory" AuthorLastName="Stonier" AuthorFirstName=" Alfred" Genre="tech" Subgenre="economics" Publisher="Pearson" InLibrary="1" />
-  <Book Title="Econometric Analysis" AuthorLastName="Greene" AuthorFirstName=" W. H." Genre="tech" Subgenre="economics" Publisher="Pearson" InLibrary="1" />
-  <Book Title="Learning OpenCV" AuthorLastName="Bradsky" AuthorFirstName=" Gary" Genre="tech" Subgenre="signal_processing" Publisher="O'Reilly" InLibrary="1" />
-  <Book Title="Data Structures Using C &amp; C++" AuthorLastName="Tanenbaum" AuthorFirstName=" Andrew" Genre="tech" Subgenre="computer_science" Publisher="Prentice Hall" InLibrary="1" />
-  <Book Title="Computer Vision, A Modern Approach" AuthorLastName="Forsyth" AuthorFirstName=" David" Genre="tech" Subgenre="signal_processing" Publisher="Pearson" InLibrary="1" />
-  <Book Title="Principles of Communication Systems" AuthorLastName="Taub" AuthorFirstName=" Schilling" Genre="tech" Subgenre="signal_processing" Publisher="TMH" InLibrary="1" />
-  <Book Title="Let Us C" AuthorLastName="Kanetkar" AuthorFirstName=" Yashwant" Genre="tech" Subgenre="computer_science" Publisher="Prentice Hall" InLibrary="1" />
-  <Book Title="Amulet of Samarkand, The" AuthorLastName="Stroud" AuthorFirstName=" Jonathan" Genre="fiction" Subgenre="novel" Publisher="Random House" InLibrary="1" />
-  <Book Title="Crime and Punishment" AuthorLastName="Dostoevsky" AuthorFirstName=" Fyodor" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Angels &amp; Demons" AuthorLastName="Brown" AuthorFirstName=" Dan" Genre="fiction" Subgenre="novel" Publisher="Random House" InLibrary="1" />
-  <Book Title="Argumentative Indian, The" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="nonfiction" Subgenre="history" Publisher="Picador" InLibrary="1" />
-  <Book Title="Sea of Poppies" AuthorLastName="Ghosh" AuthorFirstName=" Amitav" Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Idea of Justice, The" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="philosophy" Subgenre="economics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Raisin in the Sun, A" AuthorLastName="Hansberry" AuthorFirstName=" Lorraine" Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="All the President's Men" AuthorLastName="Woodward" AuthorFirstName=" Bob" Genre="nonfiction" Subgenre="history" Publisher="Random House" InLibrary="1" />
-  <Book Title="Prisoner of Birth, A" AuthorLastName="Archer" AuthorFirstName=" Jeffery" Genre="fiction" Subgenre="novel" Publisher="Pan" InLibrary="1" />
-  <Book Title="Scoop!" AuthorLastName="Nayar" AuthorFirstName=" Kuldip" Genre="nonfiction" Subgenre="history" Publisher="HarperCollins" InLibrary="1" />
-  <Book Title="Ahe Manohar Tari" AuthorLastName="Deshpande" AuthorFirstName=" Sunita" Genre="nonfiction" Subgenre="autobiography" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Last Mughal, The" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Radiowaril Bhashane &amp; Shrutika" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Gun Gayin Awadi" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Aghal Paghal" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Maqta-e-Ghalib" AuthorLastName="Garg" AuthorFirstName=" Sanjay" Genre="nonfiction" Subgenre="poetry" Publisher="Mauj" InLibrary="1" />
-  <Book Title="Manasa" AuthorLastName="Kale" AuthorFirstName=" V P" Genre="nonfiction" Subgenre="misc" Publisher="Mauj" InLibrary="1" />
-  <Book Title="India from Midnight to Milennium" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Great Indian Novel, The" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="O Jerusalem!" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="nonfiction" Subgenre="history" Publisher="vikas" InLibrary="1" />
-  <Book Title="City of Joy, The" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="fiction" Subgenre="novel" Publisher="vikas" InLibrary="1" />
-  <Book Title="Freedom at Midnight" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="nonfiction" Subgenre="history" Publisher="vikas" InLibrary="1" />
-  <Book Title="Winter of Our Discontent, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="On Education" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Subgenre="education" Publisher="Routledge" InLibrary="1" />
-  <Book Title="Free Will" AuthorLastName="Harris" AuthorFirstName=" Sam" Genre="nonfiction" Subgenre="psychology" Publisher="FreePress" InLibrary="1" />
-  <Book Title="Bookless in Baghdad" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="nonfiction" Subgenre="history" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Case of the Lame Canary, The" AuthorLastName="Gardner" AuthorFirstName=" Earle Stanley" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Theory of Everything, The" AuthorLastName="Hawking" AuthorFirstName=" Stephen" Genre="science" Subgenre="physics" Publisher="Jaico" InLibrary="1" />
-  <Book Title="New Markets &amp; Other Essays" AuthorLastName="Drucker" AuthorFirstName=" Peter" Genre="science" Subgenre="economics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Electric Universe" AuthorLastName="Bodanis" AuthorFirstName=" David" Genre="science" Subgenre="physics" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Hunchback of Notre Dame, The" AuthorLastName="Hugo" AuthorFirstName=" Victor" Genre="fiction" Subgenre="classic" Publisher="Random House" InLibrary="1" />
-  <Book Title="Burning Bright" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Subgenre="classic" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Age of Discontuinity, The" AuthorLastName="Drucker" AuthorFirstName=" Peter" Genre="nonfiction" Subgenre="economics" Publisher="Random House" InLibrary="1" />
-  <Book Title="Doctor in the Nude" AuthorLastName="Gordon" AuthorFirstName=" Richard" Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Down and Out in Paris &amp; London" AuthorLastName="Orwell" AuthorFirstName=" George" Genre="nonfiction" Subgenre="autobiography" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Identity &amp; Violence" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="philosophy" Subgenre="philosophy" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Beyond the Three Seas" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Subgenre="history" Publisher="Random House" InLibrary="1" />
-  <Book Title="Talking Straight" AuthorLastName="Iacoca" AuthorFirstName=" Lee" Genre="nonfiction" Subgenre="autobiography" Publisher="" InLibrary="1" />
-  <Book Title="Maugham's Collected Short Stories, Vol 3" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Subgenre="classic" Publisher="Vintage" InLibrary="1" />
-  <Book Title="Phantom of Manhattan, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="Ashenden of The British Agent" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Subgenre="classic" Publisher="Vintage" InLibrary="1" />
-  <Book Title="Zen &amp; The Art of Motorcycle Maintenance" AuthorLastName="Pirsig" AuthorFirstName=" Robert" Genre="philosophy" Subgenre="autobiography" Publisher="Vintage" InLibrary="1" />
-  <Book Title="Great War for Civilization, The" AuthorLastName="Fisk" AuthorFirstName=" Robert" Genre="nonfiction" Subgenre="history" Publisher="HarperCollins" InLibrary="1" />
-  <Book Title="We the Living" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="fiction" Subgenre="novel" Publisher="Penguin" InLibrary="1" />
-  <Book Title="Artist and the Mathematician, The" AuthorLastName="Aczel" AuthorFirstName=" Amir" Genre="science" Subgenre="mathematics" Publisher="HighStakes" InLibrary="1" />
-  <Book Title="History of Western Philosophy" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Subgenre="philosophy" Publisher="Routledge" InLibrary="1" />
-  <Book Title="Rationality &amp; Freedom" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="science" Subgenre="economics" Publisher="Springer" InLibrary="1" />
-  <Book Title="Clash of Civilizations and Remaking of the World Order" AuthorLastName="Huntington" AuthorFirstName=" Samuel" Genre="nonfiction" Subgenre="history" Publisher="Simon&amp;Schuster" InLibrary="1" />
-  <Book Title="Uncommon Wisdom" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="nonfiction" Subgenre="anthology" Publisher="Fontana" InLibrary="1" />
-  <Book Title="One" AuthorLastName="Bach" AuthorFirstName=" Richard" Genre="nonfiction" Subgenre="autobiography" Publisher="Dell" InLibrary="1" />
-  <Book Title="Half A Life" AuthorLastName="Naipaul" AuthorFirstName=" V S" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Discovery of India, The" AuthorLastName="Nehru" AuthorFirstName=" Jawaharlal" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Apulki" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="" InLibrary="1" />
-  <Book Title="Unpopular Essays" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Subgenre="philosophy" Publisher="" InLibrary="1" />
-  <Book Title="Deceiver, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Veil: Secret Wars of the CIA" AuthorLastName="Woodward" AuthorFirstName=" Bob" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Char Shabda" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="" InLibrary="1" />
-  <Book Title="Rosy is My Relative" AuthorLastName="Durrell" AuthorFirstName=" Gerald" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Moon and Sixpence, The" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="Short History of the World, A" AuthorLastName="Wells" AuthorFirstName=" H G" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Trembling of a Leaf, The" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Doctor on the Brain" AuthorLastName="Gordon" AuthorFirstName=" Richard" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Simpsons &amp; Their Mathematical Secrets" AuthorLastName="Singh" AuthorFirstName=" Simon" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Pattern Classification" AuthorLastName="Duda" AuthorFirstName=" Hart" Genre="tech" Subgenre="data_science" Publisher="" InLibrary="1" />
-  <Book Title="From Beirut to Jerusalem" AuthorLastName="Friedman" AuthorFirstName=" Thomas" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Code Book, The" AuthorLastName="Singh" AuthorFirstName=" Simon" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Age of the Warrior, The" AuthorLastName="Fisk" AuthorFirstName=" Robert" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Numbers Behind Numb3rs, The" AuthorLastName="Devlin" AuthorFirstName=" Keith" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Life in Letters, A" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Subgenre="autobiography" Publisher="" InLibrary="1" />
-  <Book Title="Information, The" AuthorLastName="Gleick" AuthorFirstName=" James" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Elements of Information Theory" AuthorLastName="Thomas" AuthorFirstName=" Joy" Genre="tech" Subgenre="signal_processing" Publisher="" InLibrary="1" />
-  <Book Title="Power Electronics - Rashid" AuthorLastName="Rashid" AuthorFirstName=" Muhammad" Genre="tech" Subgenre="computer_science" Publisher="" InLibrary="1" />
-  <Book Title="Power Electronics - Mohan" AuthorLastName="Mohan" AuthorFirstName=" Ned" Genre="tech" Subgenre="computer_science" Publisher="" InLibrary="1" />
-  <Book Title="Neural Networks" AuthorLastName="Haykin" AuthorFirstName=" Simon" Genre="tech" Subgenre="data_science" Publisher="" InLibrary="1" />
-  <Book Title="Grapes of Wrath, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="Vyakti ani Valli" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Subgenre="misc" Publisher="" InLibrary="1" />
-  <Book Title="Statistical Learning Theory" AuthorLastName="Vapnik" AuthorFirstName=" Vladimir" Genre="tech" Subgenre="data_science" Publisher="" InLibrary="1" />
-  <Book Title="Empire of the Mughal - The Tainted Throne" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Empire of the Mughal - Brothers at War" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Empire of the Mughal - Ruler of the World" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Empire of the Mughal - The Serpent's Tooth" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Empire of the Mughal - Raiders from the North" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Mossad" AuthorLastName="Baz-Zohar" AuthorFirstName=" Michael" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="Jim Corbett Omnibus" AuthorLastName="Corbett" AuthorFirstName=" Jim" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="20000 Leagues Under the Sea" AuthorLastName="Verne" AuthorFirstName=" Jules" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Pointers in C" AuthorLastName="Kanetkar" AuthorFirstName=" Yashwant" Genre="tech" Subgenre="computer_science" Publisher="" InLibrary="1" />
-  <Book Title="Cathedral and the Bazaar, The" AuthorLastName="Raymond" AuthorFirstName=" Eric" Genre="tech" Subgenre="computer_science" Publisher="" InLibrary="1" />
-  <Book Title="Design with OpAmps" AuthorLastName="Franco" AuthorFirstName=" Sergio" Genre="tech" Subgenre="computer_science" Publisher="" InLibrary="1" />
-  <Book Title="Think Complexity" AuthorLastName="Downey" AuthorFirstName=" Allen" Genre="tech" Subgenre="data_science" Publisher="" InLibrary="1" />
-  <Book Title="Devil's Advocate, The" AuthorLastName="West" AuthorFirstName=" Morris" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Ayn Rand Answers" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Subgenre="objectivism" Publisher="" InLibrary="1" />
-  <Book Title="Philosophy: Who Needs It" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Subgenre="objectivism" Publisher="" InLibrary="1" />
-  <Book Title="Data Analysis with Open Source Tools" AuthorLastName="Janert" AuthorFirstName=" Phillip" Genre="tech" Subgenre="data_science" Publisher="" InLibrary="1" />
-  <Book Title="Broca's Brain" AuthorLastName="Sagan" AuthorFirstName=" Carl" Genre="science" Subgenre="physics" Publisher="" InLibrary="1" />
-  <Book Title="Men of Mathematics" AuthorLastName="Bell" AuthorFirstName=" E T" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Oxford book of Modern Science Writing" AuthorLastName="Dawkins" AuthorFirstName=" Richard" Genre="science" Subgenre="science" Publisher="" InLibrary="1" />
-  <Book Title="Justice, Judiciary and Democracy" AuthorLastName="Ranjan" AuthorFirstName=" Sudhanshu" Genre="nonfiction" Subgenre="legal" Publisher="" InLibrary="1" />
-  <Book Title="Dongri to Dubai" AuthorLastName="Zaidi" AuthorFirstName=" Hussain" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="History of England, Foundation" AuthorLastName="Ackroyd" AuthorFirstName=" Peter" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="City of Djinns" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Subgenre="history" Publisher="" InLibrary="1" />
-  <Book Title="More Tears to Cry" AuthorLastName="Sassoon" AuthorFirstName=" Jean" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Ropemaker, The" AuthorLastName="Dickinson" AuthorFirstName=" Peter" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Angels &amp; Demons" AuthorLastName="Brown" AuthorFirstName=" Dan" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Eyeless in Gaza" AuthorLastName="Huxley" AuthorFirstName=" Aldous" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Tales of Beedle the Bard" AuthorLastName="Rowling" AuthorFirstName=" J K" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Girl with the Dragon Tattoo" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Girl who kicked the Hornet's Nest" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Girl who played with Fire" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Subgenre="novel" Publisher="" InLibrary="1" />
-  <Book Title="Structure and Randomness" AuthorLastName="Tao" AuthorFirstName=" Terence" Genre="science" Subgenre="mathematics" Publisher="" InLibrary="1" />
-  <Book Title="Image Processing with MATLAB" AuthorLastName="Eddins" AuthorFirstName=" Steve" Genre="tech" Subgenre="signal_processing" Publisher="" InLibrary="1" />
-  <Book Title="Animal Farm" AuthorLastName="Orwell" AuthorFirstName=" George" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="Idiot, The" AuthorLastName="Dostoevsky" AuthorFirstName=" Fyodor" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="Christmas Carol, A" AuthorLastName="Dickens" AuthorFirstName=" Charles" Genre="fiction" Subgenre="classic" Publisher="" InLibrary="1" />
-  <Book Title="testing4Title" AuthorLastName="testing4last" AuthorFirstName="testing4first" Genre="testing4genre" Subgenre="testing4subgenre" Publisher="testing4publisher" InLibrary="0" />
+  <Book Title="Fundamentals of Wavelets" AuthorLastName="Goswami" AuthorFirstName=" Jaideva" Genre="tech" Publisher="Wiley" InLibrary="1" />
+  <Book Title="Data Smart" AuthorLastName="Foreman" AuthorFirstName=" John" Genre="tech" Publisher="Wiley" InLibrary="1" />
+  <Book Title="God Created the Integers" AuthorLastName="Hawking" AuthorFirstName=" Stephen" Genre="tech" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Superfreakonomics" AuthorLastName="Dubner" AuthorFirstName=" Stephen" Genre="science" Publisher="HarperCollins" InLibrary="1" />
+  <Book Title="Orientalism" AuthorLastName="Said" AuthorFirstName=" Edward" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Nature of Statistical Learning Theory, The" AuthorLastName="Vapnik" AuthorFirstName=" Vladimir" Genre="tech" Publisher="Springer" InLibrary="1" />
+  <Book Title="Integration of the Indian States" AuthorLastName="Menon" AuthorFirstName=" V P" Genre="nonfiction" Publisher="Orient Blackswan" InLibrary="1" />
+  <Book Title="Drunkard's Walk, The" AuthorLastName="Mlodinow" AuthorFirstName=" Leonard" Genre="science" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Image Processing &amp; Mathematical Morphology" AuthorLastName="Shih" AuthorFirstName=" Frank" Genre="tech" Publisher="CRC" InLibrary="1" />
+  <Book Title="How to Think Like Sherlock Holmes" AuthorLastName="Konnikova" AuthorFirstName=" Maria" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Slaughterhouse Five" AuthorLastName="Vonnegut" AuthorFirstName=" Kurt" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Birth of a Theorem" AuthorLastName="Villani" AuthorFirstName=" Cedric" Genre="science" Publisher="Bodley Head" InLibrary="1" />
+  <Book Title="Structure &amp; Interpretation of Computer Programs" AuthorLastName="Sussman" AuthorFirstName=" Gerald" Genre="tech" Publisher="MIT Press" InLibrary="1" />
+  <Book Title="Age of Wrath, The" AuthorLastName="Eraly" AuthorFirstName=" Abraham" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Trial, The" AuthorLastName="Kafka" AuthorFirstName=" Frank" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Statistical Decision Theory'" AuthorLastName="Pratt" AuthorFirstName=" John" Genre="tech" Publisher="MIT Press" InLibrary="1" />
+  <Book Title="Data Mining Handbook" AuthorLastName="Nisbet" AuthorFirstName=" Robert" Genre="tech" Publisher="Apress" InLibrary="1" />
+  <Book Title="New Machiavelli, The" AuthorLastName="Wells" AuthorFirstName=" H. G." Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Physics &amp; Philosophy" AuthorLastName="Heisenberg" AuthorFirstName=" Werner" Genre="philosophy" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Making Software" AuthorLastName="Oram" AuthorFirstName=" Andy" Genre="tech" Publisher="O'Reilly" InLibrary="1" />
+  <Book Title="Analysis, Vol I" AuthorLastName="Tao" AuthorFirstName=" Terence" Genre="tech" Publisher="HBA" InLibrary="1" />
+  <Book Title="Machine Learning for Hackers" AuthorLastName="Conway" AuthorFirstName=" Drew" Genre="tech" Publisher="O'Reilly" InLibrary="1" />
+  <Book Title="Signal and the Noise, The" AuthorLastName="Silver" AuthorFirstName=" Nate" Genre="tech" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Python for Data Analysis" AuthorLastName="McKinney" AuthorFirstName=" Wes" Genre="tech" Publisher="O'Reilly" InLibrary="1" />
+  <Book Title="Introduction to Algorithms" AuthorLastName="Cormen" AuthorFirstName=" Thomas" Genre="tech" Publisher="MIT Press" InLibrary="1" />
+  <Book Title="Beautiful and the Damned, The" AuthorLastName="Deb" AuthorFirstName=" Siddhartha" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Outsider, The" AuthorLastName="Camus" AuthorFirstName=" Albert" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Complete Sherlock Holmes, The - Vol I" AuthorLastName="Doyle" AuthorFirstName=" Arthur Conan" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Complete Sherlock Holmes, The - Vol II" AuthorLastName="Doyle" AuthorFirstName=" Arthur Conan" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Wealth of Nations, The" AuthorLastName="Smith" AuthorFirstName=" Adam" Genre="science" Publisher="Random House" InLibrary="1" />
+  <Book Title="Pillars of the Earth, The" AuthorLastName="Follett" AuthorFirstName=" Ken" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Mein Kampf" AuthorLastName="Hitler" AuthorFirstName=" Adolf" Genre="nonfiction" Publisher="Rupa" InLibrary="1" />
+  <Book Title="Tao of Physics, The" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="science" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Surely You're Joking Mr Feynman" AuthorLastName="Feynman" AuthorFirstName=" Richard" Genre="science" Publisher="Random House" InLibrary="1" />
+  <Book Title="Farewell to Arms, A" AuthorLastName="Hemingway" AuthorFirstName=" Ernest" Genre="fiction" Publisher="Rupa" InLibrary="1" />
+  <Book Title="Veteran, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Publisher="Transworld" InLibrary="1" />
+  <Book Title="False Impressions" AuthorLastName="Archer" AuthorFirstName=" Jeffery" Genre="fiction" Publisher="Pan" InLibrary="1" />
+  <Book Title="Last Lecture, The" AuthorLastName="Pausch" AuthorFirstName=" Randy" Genre="nonfiction" Publisher="Hyperion" InLibrary="1" />
+  <Book Title="Return of the Primitive" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Jurassic Park" AuthorLastName="Crichton" AuthorFirstName=" Michael" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Russian Journal, A" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Tales of Mystery and Imagination" AuthorLastName="Poe" AuthorFirstName=" Edgar Allen" Genre="fiction" Publisher="HarperCollins" InLibrary="1" />
+  <Book Title="Freakonomics" AuthorLastName="Dubner" AuthorFirstName=" Stephen" Genre="science" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Hidden Connections, The" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="science" Publisher="HarperCollins" InLibrary="1" />
+  <Book Title="Story of Philosophy, The" AuthorLastName="Durant" AuthorFirstName=" Will" Genre="philosophy" Publisher="Pocket" InLibrary="1" />
+  <Book Title="Asami Asami" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="fiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Journal of a Novel" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Once There Was a War" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Moon is Down, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Brethren, The" AuthorLastName="Grisham" AuthorFirstName=" John" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="In a Free State" AuthorLastName="Naipaul" AuthorFirstName=" V. S." Genre="fiction" Publisher="Rupa" InLibrary="1" />
+  <Book Title="Catch 22" AuthorLastName="Heller" AuthorFirstName=" Joseph" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Dylan on Dylan" AuthorLastName="Dylan" AuthorFirstName=" Bob" Genre="nonfiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Soft Computing &amp; Intelligent Systems" AuthorLastName="Gupta" AuthorFirstName=" Madan" Genre="tech" Publisher="Elsevier" InLibrary="1" />
+  <Book Title="Textbook of Economic Theory" AuthorLastName="Stonier" AuthorFirstName=" Alfred" Genre="tech" Publisher="Pearson" InLibrary="1" />
+  <Book Title="Econometric Analysis" AuthorLastName="Greene" AuthorFirstName=" W. H." Genre="tech" Publisher="Pearson" InLibrary="1" />
+  <Book Title="Learning OpenCV" AuthorLastName="Bradsky" AuthorFirstName=" Gary" Genre="tech" Publisher="O'Reilly" InLibrary="1" />
+  <Book Title="Data Structures Using C &amp; C++" AuthorLastName="Tanenbaum" AuthorFirstName=" Andrew" Genre="tech" Publisher="Prentice Hall" InLibrary="1" />
+  <Book Title="Computer Vision, A Modern Approach" AuthorLastName="Forsyth" AuthorFirstName=" David" Genre="tech" Publisher="Pearson" InLibrary="1" />
+  <Book Title="Principles of Communication Systems" AuthorLastName="Taub" AuthorFirstName=" Schilling" Genre="tech" Publisher="TMH" InLibrary="1" />
+  <Book Title="Let Us C" AuthorLastName="Kanetkar" AuthorFirstName=" Yashwant" Genre="tech" Publisher="Prentice Hall" InLibrary="1" />
+  <Book Title="Amulet of Samarkand, The" AuthorLastName="Stroud" AuthorFirstName=" Jonathan" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Crime and Punishment" AuthorLastName="Dostoevsky" AuthorFirstName=" Fyodor" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Angels &amp; Demons" AuthorLastName="Brown" AuthorFirstName=" Dan" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Argumentative Indian, The" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="nonfiction" Publisher="Picador" InLibrary="1" />
+  <Book Title="Sea of Poppies" AuthorLastName="Ghosh" AuthorFirstName=" Amitav" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Idea of Justice, The" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="philosophy" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Raisin in the Sun, A" AuthorLastName="Hansberry" AuthorFirstName=" Lorraine" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="All the President's Men" AuthorLastName="Woodward" AuthorFirstName=" Bob" Genre="nonfiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Prisoner of Birth, A" AuthorLastName="Archer" AuthorFirstName=" Jeffery" Genre="fiction" Publisher="Pan" InLibrary="1" />
+  <Book Title="Scoop!" AuthorLastName="Nayar" AuthorFirstName=" Kuldip" Genre="nonfiction" Publisher="HarperCollins" InLibrary="1" />
+  <Book Title="Ahe Manohar Tari" AuthorLastName="Deshpande" AuthorFirstName=" Sunita" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Last Mughal, The" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Radiowaril Bhashane &amp; Shrutika" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Gun Gayin Awadi" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Aghal Paghal" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Maqta-e-Ghalib" AuthorLastName="Garg" AuthorFirstName=" Sanjay" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="Manasa" AuthorLastName="Kale" AuthorFirstName=" V P" Genre="nonfiction" Publisher="Mauj" InLibrary="1" />
+  <Book Title="India from Midnight to Milennium" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Great Indian Novel, The" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="O Jerusalem!" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="nonfiction" Publisher="vikas" InLibrary="1" />
+  <Book Title="City of Joy, The" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="fiction" Publisher="vikas" InLibrary="1" />
+  <Book Title="Freedom at Midnight" AuthorLastName="Lapierre" AuthorFirstName=" Dominique" Genre="nonfiction" Publisher="vikas" InLibrary="1" />
+  <Book Title="Winter of Our Discontent, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="On Education" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Publisher="Routledge" InLibrary="1" />
+  <Book Title="Free Will" AuthorLastName="Harris" AuthorFirstName=" Sam" Genre="nonfiction" Publisher="FreePress" InLibrary="1" />
+  <Book Title="Bookless in Baghdad" AuthorLastName="Tharoor" AuthorFirstName=" Shashi" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Case of the Lame Canary, The" AuthorLastName="Gardner" AuthorFirstName=" Earle Stanley" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Theory of Everything, The" AuthorLastName="Hawking" AuthorFirstName=" Stephen" Genre="science" Publisher="Jaico" InLibrary="1" />
+  <Book Title="New Markets &amp; Other Essays" AuthorLastName="Drucker" AuthorFirstName=" Peter" Genre="science" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Electric Universe" AuthorLastName="Bodanis" AuthorFirstName=" David" Genre="science" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Hunchback of Notre Dame, The" AuthorLastName="Hugo" AuthorFirstName=" Victor" Genre="fiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Burning Bright" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Age of Discontuinity, The" AuthorLastName="Drucker" AuthorFirstName=" Peter" Genre="nonfiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Doctor in the Nude" AuthorLastName="Gordon" AuthorFirstName=" Richard" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Down and Out in Paris &amp; London" AuthorLastName="Orwell" AuthorFirstName=" George" Genre="nonfiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Identity &amp; Violence" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="philosophy" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Beyond the Three Seas" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Publisher="Random House" InLibrary="1" />
+  <Book Title="Talking Straight" AuthorLastName="Iacoca" AuthorFirstName=" Lee" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Maugham's Collected Short Stories, Vol 3" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Publisher="Vintage" InLibrary="1" />
+  <Book Title="Phantom of Manhattan, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Ashenden of The British Agent" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Publisher="Vintage" InLibrary="1" />
+  <Book Title="Zen &amp; The Art of Motorcycle Maintenance" AuthorLastName="Pirsig" AuthorFirstName=" Robert" Genre="philosophy" Publisher="Vintage" InLibrary="1" />
+  <Book Title="Great War for Civilization, The" AuthorLastName="Fisk" AuthorFirstName=" Robert" Genre="nonfiction" Publisher="HarperCollins" InLibrary="1" />
+  <Book Title="We the Living" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="fiction" Publisher="Penguin" InLibrary="1" />
+  <Book Title="Artist and the Mathematician, The" AuthorLastName="Aczel" AuthorFirstName=" Amir" Genre="science" Publisher="HighStakes" InLibrary="1" />
+  <Book Title="History of Western Philosophy" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Publisher="Routledge" InLibrary="1" />
+  <Book Title="Rationality &amp; Freedom" AuthorLastName="Sen" AuthorFirstName=" Amartya" Genre="science" Publisher="Springer" InLibrary="1" />
+  <Book Title="Clash of Civilizations and Remaking of the World Order" AuthorLastName="Huntington" AuthorFirstName=" Samuel" Genre="nonfiction" Publisher="Simon&amp;Schuster" InLibrary="1" />
+  <Book Title="Uncommon Wisdom" AuthorLastName="Capra" AuthorFirstName=" Fritjof" Genre="nonfiction" Publisher="Fontana" InLibrary="1" />
+  <Book Title="One" AuthorLastName="Bach" AuthorFirstName=" Richard" Genre="nonfiction" Publisher="Dell" InLibrary="1" />
+  <Book Title="Half A Life" AuthorLastName="Naipaul" AuthorFirstName=" V S" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Discovery of India, The" AuthorLastName="Nehru" AuthorFirstName=" Jawaharlal" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Apulki" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Unpopular Essays" AuthorLastName="Russell" AuthorFirstName=" Bertrand" Genre="philosophy" Publisher="" InLibrary="1" />
+  <Book Title="Deceiver, The" AuthorLastName="Forsyth" AuthorFirstName=" Frederick" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Veil: Secret Wars of the CIA" AuthorLastName="Woodward" AuthorFirstName=" Bob" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Char Shabda" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Rosy is My Relative" AuthorLastName="Durrell" AuthorFirstName=" Gerald" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Moon and Sixpence, The" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Short History of the World, A" AuthorLastName="Wells" AuthorFirstName=" H G" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Trembling of a Leaf, The" AuthorLastName="Maugham" AuthorFirstName=" William S" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Doctor on the Brain" AuthorLastName="Gordon" AuthorFirstName=" Richard" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Simpsons &amp; Their Mathematical Secrets" AuthorLastName="Singh" AuthorFirstName=" Simon" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Pattern Classification" AuthorLastName="Duda" AuthorFirstName=" Hart" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="From Beirut to Jerusalem" AuthorLastName="Friedman" AuthorFirstName=" Thomas" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Code Book, The" AuthorLastName="Singh" AuthorFirstName=" Simon" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Age of the Warrior, The" AuthorLastName="Fisk" AuthorFirstName=" Robert" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Numbers Behind Numb3rs, The" AuthorLastName="Devlin" AuthorFirstName=" Keith" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Life in Letters, A" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Information, The" AuthorLastName="Gleick" AuthorFirstName=" James" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Elements of Information Theory" AuthorLastName="Thomas" AuthorFirstName=" Joy" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Power Electronics - Rashid" AuthorLastName="Rashid" AuthorFirstName=" Muhammad" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Power Electronics - Mohan" AuthorLastName="Mohan" AuthorFirstName=" Ned" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Neural Networks" AuthorLastName="Haykin" AuthorFirstName=" Simon" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Grapes of Wrath, The" AuthorLastName="Steinbeck" AuthorFirstName=" John" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Vyakti ani Valli" AuthorLastName="Deshpande" AuthorFirstName=" P L" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Statistical Learning Theory" AuthorLastName="Vapnik" AuthorFirstName=" Vladimir" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Empire of the Mughal - The Tainted Throne" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Empire of the Mughal - Brothers at War" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Empire of the Mughal - Ruler of the World" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Empire of the Mughal - The Serpent's Tooth" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Empire of the Mughal - Raiders from the North" AuthorLastName="Rutherford" AuthorFirstName=" Alex" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Mossad" AuthorLastName="Baz-Zohar" AuthorFirstName=" Michael" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Jim Corbett Omnibus" AuthorLastName="Corbett" AuthorFirstName=" Jim" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="20000 Leagues Under the Sea" AuthorLastName="Verne" AuthorFirstName=" Jules" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Pointers in C" AuthorLastName="Kanetkar" AuthorFirstName=" Yashwant" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Cathedral and the Bazaar, The" AuthorLastName="Raymond" AuthorFirstName=" Eric" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Design with OpAmps" AuthorLastName="Franco" AuthorFirstName=" Sergio" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Think Complexity" AuthorLastName="Downey" AuthorFirstName=" Allen" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Devil's Advocate, The" AuthorLastName="West" AuthorFirstName=" Morris" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Ayn Rand Answers" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Publisher="" InLibrary="1" />
+  <Book Title="Philosophy: Who Needs It" AuthorLastName="Rand" AuthorFirstName=" Ayn" Genre="philosophy" Publisher="" InLibrary="1" />
+  <Book Title="Data Analysis with Open Source Tools" AuthorLastName="Janert" AuthorFirstName=" Phillip" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Broca's Brain" AuthorLastName="Sagan" AuthorFirstName=" Carl" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Men of Mathematics" AuthorLastName="Bell" AuthorFirstName=" E T" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Oxford book of Modern Science Writing" AuthorLastName="Dawkins" AuthorFirstName=" Richard" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Justice, Judiciary and Democracy" AuthorLastName="Ranjan" AuthorFirstName=" Sudhanshu" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="Dongri to Dubai" AuthorLastName="Zaidi" AuthorFirstName=" Hussain" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="History of England, Foundation" AuthorLastName="Ackroyd" AuthorFirstName=" Peter" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="City of Djinns" AuthorLastName="Dalrymple" AuthorFirstName=" William" Genre="nonfiction" Publisher="" InLibrary="1" />
+  <Book Title="More Tears to Cry" AuthorLastName="Sassoon" AuthorFirstName=" Jean" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Ropemaker, The" AuthorLastName="Dickinson" AuthorFirstName=" Peter" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Angels &amp; Demons" AuthorLastName="Brown" AuthorFirstName=" Dan" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Eyeless in Gaza" AuthorLastName="Huxley" AuthorFirstName=" Aldous" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Tales of Beedle the Bard" AuthorLastName="Rowling" AuthorFirstName=" J K" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Girl with the Dragon Tattoo" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Girl who kicked the Hornet's Nest" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Girl who played with Fire" AuthorLastName="Larsson" AuthorFirstName=" Steig" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Structure and Randomness" AuthorLastName="Tao" AuthorFirstName=" Terence" Genre="science" Publisher="" InLibrary="1" />
+  <Book Title="Image Processing with MATLAB" AuthorLastName="Eddins" AuthorFirstName=" Steve" Genre="tech" Publisher="" InLibrary="1" />
+  <Book Title="Animal Farm" AuthorLastName="Orwell" AuthorFirstName=" George" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Idiot, The" AuthorLastName="Dostoevsky" AuthorFirstName=" Fyodor" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="Christmas Carol, A" AuthorLastName="Dickens" AuthorFirstName=" Charles" Genre="fiction" Publisher="" InLibrary="1" />
+  <Book Title="testing4Title" AuthorLastName="testing4last" AuthorFirstName="testing4first" Genre="testing4genre" Publisher="testing4publisher" InLibrary="0" />
+  <Book Title="testing1Title" AuthorLastName="T1Last" AuthorFirstName="T1First" Genre="T1Genre" Publisher="T1Publisher" InLibrary="0" />
+  <Book Title="a" AuthorLastName="a" AuthorFirstName="a" Genre="a" Publisher="a" InLibrary="0" />
+  <Book Title="ttitle" AuthorLastName="tlastname" AuthorFirstName="tfirstname" Genre="tgenre" Publisher="tpublisher" CheckedOut="testingID" InLibrary="1" />
 </ArrayOfBook>

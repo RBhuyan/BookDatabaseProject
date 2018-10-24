@@ -23,6 +23,11 @@ namespace WpfApp2
         public BookRequest()
         {
             InitializeComponent();
+            var requestedBooks = from Book b in MainWindow.BookCollection
+                                 where b.InLibrary == 0
+                                 select b;
+
+            ListView.ItemsSource = requestedBooks;
         }
 
         private void RequestButton_Click(object sender, RoutedEventArgs e)
@@ -32,13 +37,20 @@ namespace WpfApp2
                 string[] author = AuthorInput.Text.Trim().Split(' ');
                 string authorFirstName = author[0];
                 string authorLastName = author[1];
-                Book newBook = new Book(BookTitle.Text, authorLastName, authorFirstName, Genre.Text, Subgenre.Text, Publisher.Text, 0); //False parameter because this book will be a requested book, hence not in the library
+                Book newBook = new Book(BookTitle.Text, authorLastName, authorFirstName, Genre.Text, Publisher.Text, "", 0); //False parameter because this book will be a requested book, hence not in the library
                 MainWindow.BookCollection.Add(newBook);
-                XMLHandler.WriteToXML(MainWindow.BookCollection);
+                XMLHandler.WriteToXML(MainWindow.BookCollection, "Book.xml");
+
+                var requestedBooks = from Book b in MainWindow.BookCollection
+                                     where b.InLibrary == 0
+                                     select b;
+
+                ListView.ItemsSource = requestedBooks;
+                ListView.Items.Refresh();
             }
             else
             {
-                MessageBox.Show("Input validation error occurred, please check the help menu on correct input parameters");
+                //MessageBox.Show("Input validation error occurred, please check the help menu on correct input parameters");
             }
         }
 
@@ -53,13 +65,24 @@ namespace WpfApp2
                 //Checks if any input parameters are null or white space as well as checking the author has an actual first and last name
                 if (String.IsNullOrWhiteSpace(BookTitle.Text) || String.IsNullOrWhiteSpace(authorFirstName) || String.IsNullOrWhiteSpace(authorLastName) || String.IsNullOrWhiteSpace(Genre.Text) || String.IsNullOrWhiteSpace(Subgenre.Text) || String.IsNullOrWhiteSpace(Publisher.Text))
                 {
+                    MessageBox.Show("Input validation error occurred, please check the help menu on correct input parameters");
                     return false;
                 }
 
+
+                var duplicateCheck = from Book b in MainWindow.BookCollection
+                                     where (b.Title == BookTitle.Text && b.AuthorFirstName == authorFirstName && b.AuthorLastName == authorLastName)
+                                     select b;
+                if (duplicateCheck.Count() > 0)
+                {
+                    MessageBox.Show("Requested book has already been requested");
+                    return false;
+                }
                 return true;
             }
             catch
             {
+                MessageBox.Show("Input validation error occurred, please check the help menu on correct input parameters");
                 return false; //Some error in data handling, return false
             }
         }
