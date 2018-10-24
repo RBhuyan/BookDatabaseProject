@@ -49,9 +49,3 @@ D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.res
 D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
 D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
 D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
-D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\CheckoutConfirm.g.cs
-D:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\CheckoutConfirm.baml
-E:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\CheckoutConfirm.g.cs
-E:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\Login.g.cs
-E:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\CheckoutConfirm.baml
-E:\USF files\Software System Development\WpfApp2\WpfApp2\obj\Debug\Login.baml

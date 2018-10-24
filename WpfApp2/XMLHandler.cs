@@ -12,9 +12,8 @@ namespace WpfApp2
     public class XMLHandler
     {
         public static XmlSerializer serializer = new XmlSerializer(typeof(ObservableCollection<Book>));
-        public static XmlSerializer serializerUser = new XmlSerializer(typeof(ObservableCollection<User>));
 
-        public static ObservableCollection<Book> ReadFromMemory(string garbagepath)
+        public static ObservableCollection<Book> ReadStudentsFromMemory()
         {
             string path = "Book.xml";
 
@@ -27,7 +26,12 @@ namespace WpfApp2
                 }
             }
             else
-            {               
+            {
+                /* DEBUGGING
+                //ObservableCollection<Book> empty = new ObservableCollection<Book>();
+                //ObservableCollection<Book> readfromCSV = Book.ReadCSV();
+                //MainWindow.BookCollection = Book.ReadCSV();
+                */
                 ObservableCollection<Book> csvCollection = Book.ReadCSV();
                 using (FileStream filestream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
                 {
@@ -39,30 +43,7 @@ namespace WpfApp2
             }
         }
 
-        public static ObservableCollection<User> ReadFromMemory()   //Reads from xml file for users
-        {
-            string path = "User.xml";
-
-            if (File.Exists(path))
-            {
-                using (FileStream readStream = new FileStream(path, FileMode.Open, FileAccess.Read))
-                {
-                    ObservableCollection<User> read = serializerUser.Deserialize(readStream) as ObservableCollection<User>;
-                    return read;
-                }
-            }
-            else
-            {
-                using (FileStream filestream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
-                {
-                    ObservableCollection<User> newUser = new ObservableCollection<User>(); //Creates a new empty observable collection od users
-                    return newUser;
-                }
-
-            }
-        }
-
-        public static void WriteToXML(ObservableCollection<Book> b, string tempPath)
+        public static void WriteToXML(ObservableCollection<Book> b)
         {
             
                 string path = "Book.xml";
@@ -78,24 +59,6 @@ namespace WpfApp2
                     serializer.Serialize(filestream, b);
                 }
             
-        }
-
-        public static void WriteToXML(ObservableCollection<User> b, string tempath)
-        {
-
-            string path = "User.xml";
-
-            //If the student collection is empty and the file is empty we delete it
-            if (b.Count == 0 && File.Exists(path))
-            {
-                File.Delete(path);
-            }
-            using (FileStream filestream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
-            {
-                //Creates a new "Book.xml" file and populates it with the contents in the ObservableCollection
-                serializerUser.Serialize(filestream, b);
-            }
-
         }
 
     }

@@ -24,37 +24,31 @@ namespace WpfApp2
         [XmlAttribute(DataType = "string")]
         public string Genre { get; set; }
 
+        [XmlAttribute(DataType = "string")]
+        public string Subgenre { get; set; }
 
         [XmlAttribute(DataType = "string")]
         public string Publisher { get; set; }
-
-        [XmlAttribute(DataType = "string")]
-        public string CheckedOut { get; set; }
 
         [XmlAttribute(DataType = "int")] //For some reason it doesn't accept Datatype=bool, will have to look into it later. For now we keep value 1 if it is library and 0 if requested
         public int InLibrary { get; set; }
 
         public Book() { }
 
-        public Book(string title, string authorLastName, string authorFirstName, string genre, string publisher, string checkedOut, int inLibrary)
+        public Book(string title, string authorLastName, string authorFirstName, string genre, string subgenre, string publisher, int inLibrary)
         {
             Title = title;
             AuthorLastName = authorLastName;
             AuthorFirstName = authorFirstName;
             Genre = genre;
+            Subgenre = subgenre;
             Publisher = publisher;
-            CheckedOut = CheckedOut;
             InLibrary = inLibrary;
         }
 
         public override string ToString()
         {
-            if (AuthorLastName != "N/A")
-            {
-                return $"{Title}\nby {AuthorFirstName} {AuthorLastName}\n{Genre}";
-            }
-            else
-                return $"{Title}\nby {AuthorFirstName}\n{Genre}";
+            return $"{Title}, {AuthorLastName}, {AuthorFirstName}, {Genre}";
         }
 
         public static ObservableCollection<Book> ReadCSV()  //Reads the csv into an xml file
@@ -66,14 +60,14 @@ namespace WpfApp2
             {
                 try      //Some books in the csv file are not formatted correctly but we have enough of a sample size where we can just throw these anomalies out instead of handling each edge case
                 {
-                    string[] data = line.Split(',');
-                    //string[] author = data[1].Split(','); //In the csv author is displayed as: lastName, firstName so by splitting the string by ", " we get author[0] = lastName and author[1] = firstName
-                    //string authorLastName = author[0];
-                    //string authorFirstName = author[1];
-                    //Console.Write(authorLastName);
-                    //Console.Write(authorFirstName);
+                    string[] data = line.Split('|');
+                    string[] author = data[1].Split(','); //In the csv author is displayed as: lastName, firstName so by splitting the string by ", " we get author[0] = lastName and author[1] = firstName
+                    string authorLastName = author[0];
+                    string authorFirstName = author[1];
+                    Console.Write(authorLastName);
+                    Console.Write(authorFirstName);
                         
-                    Book b = new Book(data[0], data[1], data[2], data[3], data[6], "", 1); //We set the bool value to true because by reading in the books for the library database we know these books are in the library
+                    Book b = new Book(data[0], data[1].Split(',')[0], data[1].Split(',')[1], data[2], data[3], data[4], 1); //We set the bool value to true because by reading in the books for the library database we know these books are in the library
                     temp.Add(b);
                 }
                 catch (Exception ex)
