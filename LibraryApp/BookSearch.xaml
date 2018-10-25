@@ -1,0 +1,63 @@
+﻿<Window x:Class="LibraryApp.BookSearch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryApp"
+        mc:Ignorable="d"
+        Title="Search" Height="370" Width="800" ResizeMode="NoResize">
+    <DockPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition MaxHeight="15" MinHeight="15"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="Header" Content="Advanced Search" FontSize="40" FontWeight="Black" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" />
+
+            <Label x:Name="TitleWarning"  Content="Invalid" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right"  Visibility="Hidden" Grid.ColumnSpan="2" Margin="0,2,435,34" Grid.RowSpan="2"/>
+            <Label x:Name="AuthorFirstWarning"  Content="Invalid" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right" Visibility="Hidden" Grid.ColumnSpan="2" Margin="0,2,435,34" Grid.RowSpan="2"/>
+            <Label x:Name="AuthorLastWarning"  Content="Invalid" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" Visibility="Hidden" Grid.ColumnSpan="2" Margin="0,2,435,34" Grid.RowSpan="2"/>
+            <Label x:Name="GenreWarning"  Content="Invalid" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right"  Visibility="Hidden" Grid.ColumnSpan="2" Margin="0,2,435,34" Grid.RowSpan="2"/>
+            <Label x:Name="PublisherWarning"  Content="Invalid" Grid.Column="1" Grid.Row="6"  HorizontalAlignment="Right" Visibility="Hidden" Grid.ColumnSpan="2" Margin="0,2,435,34" Grid.RowSpan="2"/>
+
+            <Separator x:Name="separate" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" VerticalAlignment="Top"/>
+
+            <Label x:Name="Title" Grid.Column="0" Grid.Row="2" Content="Title:" VerticalAlignment="Center"/>
+            <Label x:Name="AuthorFirstName" Grid.Column="0" Grid.Row="3" Content="Author's First Name:" VerticalAlignment="Center"/>
+            <Label x:Name="AuthorLastName" Grid.Column="0" Grid.Row="4" Content="Author's Surname:" VerticalAlignment="Center"/>
+            <Label x:Name="Genre" Grid.Column="0" Grid.Row="5" Content="Genre:" VerticalAlignment="Center"/>
+            <Label x:Name="Publisher" Grid.Column="0" Grid.Row="6" Content="Publisher:" VerticalAlignment="Center"/>
+
+            <TextBox x:Name="TitleEntry" Grid.Column="1" Grid.Row="2" Height="25" Width="150" HorizontalAlignment="Left" TextChanged="TextChanged" ToolTip="Enter at least one criteria. Hit Search button to find book(s)"/>
+            <TextBox x:Name="AuthorEntryFirst" Grid.Column="1" Grid.Row="3" Height="25" Width="150" HorizontalAlignment="Left" TextChanged="TextChanged" ToolTip="Enter at least one criteria. Hit Search button to find book(s)"/>
+            <TextBox x:Name="AuthorEntryLast" Grid.Column="1" Grid.Row="4" Height="25" Width="150" HorizontalAlignment="Left" TextChanged="TextChanged" ToolTip="Enter at least one criteria. Hit Search button to find book(s)"/>
+            <TextBox x:Name="GenreEntry" Grid.Column="1" Grid.Row="5" Height="25" Width="150" HorizontalAlignment="Left" TextChanged="TextChanged" ToolTip="Enter at least one criteria. Hit Search button to find book(s)"/>
+            <TextBox x:Name="PublisherEntry" Grid.Column="1" Grid.Row="6" Height="25" Width="150" HorizontalAlignment="Left" TextChanged="TextChanged" ToolTip="Enter at least one criteria. Hit Search button to find book(s)"/>
+
+            <Label x:Name="Note" Content="To borrow a book, select book of your choice and click the button below." FontSize="9" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" Grid.RowSpan="2" VerticalAlignment="Top"/>
+            <Button x:Name="Book_Search" Content="Search" Grid.Column="1" Grid.Row="7" Width="80" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left" Click="BookSearch_Click" />
+            <Button x:Name="BorrowBook" Content="Borrow Book" Grid.Column="2" Grid.Row="7" Width="80" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Click="BorrowBook_Click" />
+
+            <ListView x:Name="BookList" Grid.Column="2" Grid.Row="2" Height="140" Grid.RowSpan="4" Background="WhiteSmoke" Width="400"/>
+
+
+
+
+        </Grid>
+    </DockPanel>
+</Window>
